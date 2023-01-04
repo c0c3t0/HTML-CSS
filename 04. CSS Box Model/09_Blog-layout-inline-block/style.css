@@ -9,7 +9,6 @@ body {
 }
 
 article {
-    display: inline-block;
     width: 60%;
     float: left;
 }
