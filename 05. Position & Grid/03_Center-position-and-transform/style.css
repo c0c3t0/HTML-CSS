@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Georgia, serif;
+}
+
+img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h3 {
+    font-size: 1em/1.2;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 24px;
+}
+
+a {
+    background-color: rgb(0, 153, 0);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 14px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+div:nth-child(1) {
+    position: relative;
+}
+
+div:nth-child(2) {
+    padding: 150px 30px 0px;
+    height: 25vh;
+    position: relative;
+}
