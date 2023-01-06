@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 0px 30px;
+}
+
+img {
+    background-image: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    border: 4px solid black;
+    padding: 3px;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: rgb(118, 118, 118);
+
+}
+
+h1,
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+header {
+    border-bottom: 2px solid black;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+
+header p {
+    float: left;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+main {
+    width: 65%;
+    float: left;
+}
+
+.first {
+    overflow: hidden;
+}
+
+
+.first img {
+    width: 30%;
+    float: right;
+    margin: 1rem;
+}
+
+.blog-content {
+    overflow: hidden;
+}
+
+.blog-content>p {
+    border-right: 4px solid lightgray;
+    padding-right: 30px;
+    width: 47%;
+    float: left;
+}
+
+.blog-content>blockquote {
+    width: 40%;
+    float: right;
+    position: relative;
+}
+
+.blog-content>blockquote p {
+    position: absolute;
+    top: 100;
+    right: 0;
+}
+
+.third {
+    overflow: hidden;
+}
+
+
+.third img {
+    width: 30%;
+    float: left;
+    margin: 1rem;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+aside section {
+    width: 30%;
+    float: right;
+}
+
+aside section nav ul li {
+    width: 100%;
+    float: left;
+}
