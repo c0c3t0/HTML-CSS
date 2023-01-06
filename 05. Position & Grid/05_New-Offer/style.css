@@ -2,6 +2,19 @@ main {
     width: 700px;
     height: 500px;
     margin: 60px;
+}
+
+.new {
+    position: relative;
+    top: -200px;
+    right: 150px;
+}
+
+
+/* main {
+    width: 700px;
+    height: 500px;
+    margin: 60px;
     position: relative;
 }
 
@@ -9,4 +22,4 @@ main {
     position: absolute;
     top: -60px;
     right: 220px;
-}
+} */
