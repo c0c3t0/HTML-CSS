@@ -22,10 +22,19 @@ footer {
     flex-basis: 100%;
 }
 
+header {
+    height: 6rem;
+}
+
 main {
-    flex: 8 1 40rem;
+    flex: 8 1 20rem;
+    height: 20rem;
 }
 
 aside {
-    flex: 2 1 20rem;
+    flex: 2 1 5rem;
+}
+
+footer {
+    height: 3rem;
 }
