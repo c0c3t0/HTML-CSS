@@ -1,0 +1,31 @@
+body {
+    background-color: #EEE;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem;
+    gap: 20px;
+}
+
+header,
+main,
+aside,
+footer {
+    background-color: #FFF;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    color: #000;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+header,
+footer {
+    flex-basis: 100%;
+}
+
+main {
+    flex: 8 1 40rem;
+}
+
+aside {
+    flex: 2 1 20rem;
+}
