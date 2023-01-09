@@ -1,0 +1,40 @@
+html {
+    font-family: Helvetica, sans-serif;
+    padding: 30px;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header p {
+    padding-right: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    display: flex;
+    text-decoration: none;
+    align-items: flex-start;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    padding: 20px;
+}
+
+main h1 {
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
