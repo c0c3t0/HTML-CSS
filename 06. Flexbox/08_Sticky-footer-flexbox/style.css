@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+}
+
+
+header {
+    border-bottom: 3px solid rgb(102, 102, 102);
+}
+
+header p {
+    padding-left: 40px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main {
+    padding: 10px 40px;
+}
+
+main h2 {
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+}
