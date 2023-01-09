@@ -23,9 +23,7 @@ header nav ul {
 }
 
 header nav ul li {
-    display: flex;
-    text-decoration: none;
-    align-items: flex-start;
+    list-style-type: none;
 }
 
 header nav li a {
