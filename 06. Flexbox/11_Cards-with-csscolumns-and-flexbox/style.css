@@ -1,0 +1,63 @@
+html,
+body {
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+}
+
+.cards-layout {
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.flex article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.cards-layout section {
+    padding: 15px;
+    line-height: 1.4;
+}
+
+.cards-layout h3 {
+    font-weight: 100;
+}
+
+.cards-layout footer {
+    border-top: 2px solid lightgray;
+    padding: 15px;
+    line-height: 1.4;
+    align-self: flex-end;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.masonry {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+  }
+
+.masonry article {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+}
