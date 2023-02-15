@@ -1,0 +1,89 @@
+/* 1920 x 1080 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+html {
+    font-family: Mulish;
+    background-image: url('./images/background.png');
+    background-size: cover;
+}
+
+form {
+    width: 60%;
+    padding: 40px 60px;
+    background-image: url('./images/form-background.png');
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 26px;
+    box-shadow: rgba(0, 0, 0, 0.25) 20px 20px 7px;
+}
+
+form>* {
+    display: block;
+}
+
+.firstName label,
+.lastName label {
+    display: block;
+    margin-bottom: 10px;
+    color: gray;
+
+}
+
+.firstName input,
+.lastName input {
+    width: 98%;
+}
+
+.lastName input,
+.lastName label {
+    margin-left: 16px;
+}
+
+.firstName,
+.lastName {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+input {
+    padding: 12px;
+    width: 50%;
+    margin-bottom: 16px;
+    border-radius: 28px;
+    border: 1px solid gray;
+}
+
+label {
+    margin-bottom: 10px;
+    color: gray;
+}
+
+h1 {
+    width: 50%;
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 14px 26px;
+    position: relative;
+    left: 170px;
+    background-color: brown;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 28px;
+    border: unset;
+    
+}
