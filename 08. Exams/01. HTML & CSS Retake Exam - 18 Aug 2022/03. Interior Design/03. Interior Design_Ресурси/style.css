@@ -1,0 +1,188 @@
+/* 1680 x 1050 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap');
+
+html {
+    font-family: Roboto, serif;
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Abril Fatface";
+}
+
+body {
+    /* margin: 0px */
+}
+
+/* header */
+header {
+    background-image: url(./image/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.heading {
+    padding-right: 60px;
+    display: inline-block;
+    position: absolute;
+    top: 6%;
+    left: 16%;
+    border: 2px solid rgb(183, 183, 183);
+    box-shadow: rgba(0, 0, 0, 0.5) 2.4px 6px 6px;
+}
+
+.heading h1 {
+    font-size: 38px;
+    margin-right: 40px;
+    padding: 30px 0px 0px 20px;
+}
+
+.heading p {
+    font-size: 18px;
+    margin: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #fff;
+}
+
+blockquote {
+    width: 23rem;
+    position: absolute;
+    top: 30%;
+    right: 13%;
+    border: 2px solid rgb(183, 183, 183);
+    box-shadow: rgba(0, 0, 0, 0.5) 2.4px 6px 6px;
+    text-align: right;
+    padding: 20px;
+
+    background: rgb(156, 146, 138);
+    background: linear-gradient(90deg, rgba(156, 146, 138, 1) 27%, rgba(190, 185, 180, 1) 63%, rgba(202, 200, 198, 1) 100%);
+}
+
+blockquote i {
+    padding: 20px 14px 0px 0px;
+    color: #8D8581;
+}
+
+blockquote p {
+    color: #fff;
+    font-size: 20px;
+    padding: 7px 14px;
+}
+
+/* main */
+main {
+    background-color: #F2F0F3;
+    height: 90vh;
+    margin: 0px 140px;
+    display: flex;
+    align-items: stretch;
+}
+
+
+/* services */
+.left {
+    margin: 70px;
+}
+
+h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.services ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+}
+
+.service {
+    font-size: 20px;
+    color: #46433E;
+}
+
+.service b {
+    color: black;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+/* contacts */
+.contacts {
+    margin-top: 4.4rem;
+}
+
+.contact {
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+hr {
+    border-top: 2px solid #46433E;
+}
+
+.mail {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.mail input{
+    background-color: #BAB1AD;
+    width: 60%;
+    height: 62px;
+    border-radius: 8px;
+    border: unset;
+}
+
+.mail input::placeholder {
+    color: #fff;
+    text-indent: 20px;
+}
+
+.mail button {
+    background-color: rgb(52, 141, 52);
+    color: #fff;
+    padding: 14px 24px;
+    border-radius: 8px;
+    border: unset;
+    margin-left: 10px;
+}
+
+/* aside */
+.stats {
+    background-color: #BAB1AD;
+    flex-basis: 60%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.stats p {
+    color: #fff;
+    font-size: 74px;
+}
+
+.stats span {
+    color: #46433E;
+    text-transform: uppercase;
+    font-size: 20px;
+}
