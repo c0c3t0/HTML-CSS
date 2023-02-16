@@ -66,3 +66,101 @@ h1 {
     margin: 50px 0 30px 0;
     text-shadow: none;
 }
+
+.first, .second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.first article.hustle-what {
+    margin: 36px 70px;
+}
+
+.first article.hustle-what p {
+    margin-bottom: 26px;
+    font-weight: 600;
+}
+
+.first article.hustle-what ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+article.hustle-what i {
+    margin-left: 0;
+    margin-right: 40px;
+    color: #00D08E;
+}
+
+.left h2{
+    text-align: center;
+    margin: 30px;
+}
+
+
+.cards {
+    /* width: 50vw; */
+    padding: 50px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 80px;
+}
+
+
+.cards img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.cards {
+    align-self: center;
+}
+
+.cards span {
+    color: #00D0AB;
+    font-weight: bold;
+}
+
+.pen img {
+    display: flex;
+    justify-content: stretch;
+    width: 894px;
+    height: 559px;
+    object-fit: cover;
+}
+
+.faq {
+    background-color: #B2F1DD;
+}
+
+.faq h3 {
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.flex {
+    padding: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+}
+
+.flex .q-a {
+    width: 25%;
+    align-self:
+}
+
+.flex .q-a p {
+    padding-top: 10px;
+    font-size: large;
+}
