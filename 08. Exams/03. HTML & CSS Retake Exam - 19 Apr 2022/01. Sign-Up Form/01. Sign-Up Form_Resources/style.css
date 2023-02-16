@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    background-color: #E9E9E9;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin: 0 auto;
+    height: 1050px;
+    
+}
+
+
+.left {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+    url(./image/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-between;
+}
+
+.left .logo {
+    font-weight: bolder;
+}
+
+.left .title > * {
+    text-align: center;
+    align-self: center;
+    font-weight: lighter;
+}
+
+.icons {
+    align-self: center;
+
+}
+
+i {
+    margin-left: 10px;
+}
+
+.left > * {
+    color: #fff;
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: large;
+    color: #bababa;
+
+}
+
+section { 
+    padding: 40px;
+    height: 630px;
+    width: 504px;
+    background-color: #fff;
+    box-shadow: -1px 5px 13px 0px rgba(0,0,0,0.35);
+    vertical-align: middle;
+}
+
+form div > * {
+    display: block;
+}
+
+input {
+    margin: 16px 0;
+    border: none;
+    border-bottom: 1px solid #bababa;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #bababa;
+}
+
+.reg > * {
+    display: inline-block;
+}
+
+.btn {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 16px 50px;
+    border-radius: 28px;
+    border: none;
+    margin-right: 20px;
+}
+
+.reg a {
+    color: #bababa;
+}
