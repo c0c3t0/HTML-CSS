@@ -1,0 +1,193 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navs {
+    margin-top: 20px;
+    width: 70%;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo img {
+    background: linear-gradient(0deg, rgba(152, 105, 11, 1) 22%, rgba(179, 140, 35, 1) 73%, rgba(204, 168, 56, 1) 100%);
+    padding: 20px;
+    position: relative;
+    top: 25%;
+    left: 35%;
+    z-index: 1;
+}
+
+.upper ul,
+.down ul {
+    display: flex;
+    width: 86%;
+    gap: 40px;
+    justify-content: end;
+    margin-left: 80px;
+    flex-wrap: wrap;
+}
+
+.upper ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper ul li i {
+    font-size: 28px;
+    align-self: center;
+    padding-bottom: 10px;
+}
+
+.upper ul li span {
+    font-size: 18px;
+}
+
+
+.down ul li {
+    margin-top: 18px;
+    font-size: 18px;
+}
+
+
+/* main -> hero */
+
+.hero {
+    background-image: url(./image/slider.jpg);
+    background-position: center;
+    height: 60vh;
+    position: relative;
+}
+
+
+.shuttle {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 36%;
+    height: 35vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* font-size: 20px; */
+    padding: 30px;
+    position: absolute;
+    top: 20%;
+    left: 6%;
+}
+
+.shuttle button{
+    /* width: 40%;
+    color: orange;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 10px; */
+}
+
+/* main -> card */
+.buda-card {
+    background: linear-gradient(50deg, rgba(152, 105, 11, 1) 22%, rgba(179, 140, 35, 1) 73%, rgba(204, 168, 56, 1) 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30%;
+    height: 50vh;
+    justify-content: space-evenly;
+}
+
+.buda-card h2 {
+    text-align: center;
+}
+
+.buda-card .buy{
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 8px 10px;
+    text-align: center;
+    width: 30%;
+    align-self: center;
+}
+
+.buda-imgs {
+    display: flex;
+    width: 80%;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.buda-imgs h2{
+    font-weight: 200;
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container img{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    outline-offset: 4px;
+    outline: 1px solid black;
+}
+
+.img-container span {
+    width: 190px;
+    font-size: 18px;
+}
+
+
+/* nwwsletter */
+.newsletter {
+    background-color: #B58E0F;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.news {
+    align-self: end;
+}
+
+.subscribe {
+    align-self: center;
+    width: 12%;
+    height: 60px;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 10px;
+}
+
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 20px;
+}
