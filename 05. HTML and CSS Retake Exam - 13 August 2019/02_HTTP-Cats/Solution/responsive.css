@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery > * {
+        width: 100%;
+    }
+
+    .spotlight {
+        flex-direction: column;
+    }
+
+    .spotlight > * {
+        width: 100%;
+    }
+
+    .inner {
+        text-align: center;
+    }
+
+    .spotlight .inner {
+        padding: 1.4rem;
+    }
+}
+
