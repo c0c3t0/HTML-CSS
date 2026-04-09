@@ -4,9 +4,12 @@
 
 html {
     font-family: "Lato", sans-serif;
+    color: #244566;
+    line-height: 1.6;
+    font-weight: 400;
 }
 
-.main-nav{
+.main-nav {
     display: flex;
     justify-content: space-around;
     background-color: #244566;
@@ -67,12 +70,13 @@ main {
     color: white;
     padding: 12px 0 62px;
     text-align: center;
-    
+
 }
 
 main h1 {
     font-size: 46px;
 }
+
 main ul {
     display: flex;
     justify-content: center;
@@ -80,7 +84,7 @@ main ul {
     list-style: none;
     font-size: 20px;
     margin-bottom: 60px;
-    
+
 }
 
 main ul li i {
@@ -105,3 +109,191 @@ main ul li i {
     opacity: 0.4;
 }
 
+section {
+    margin: 40px;
+    padding: 2px 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    background-color: #f2f2f2;
+    padding-bottom: 10px;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+hr {
+    width: 120px;
+    height: 4px;
+    color: #ffa200;
+    background-color: #ffa200;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.second-hr {
+    width: 460px;
+}
+
+.third-hr {
+    width: 70px;
+}
+
+.forth-hr {
+    width: 460px;
+    background-color: white;
+}
+
+.sixth-hr {
+    width: 240px;
+}
+
+
+.content ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    gap: 7px;
+    padding: 0px;
+}
+
+.content ul li i {
+    color: #ffa200;
+}
+
+.topics ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px 30px;
+}
+
+.topics ul li {
+    background-color: #d9d9d9;
+    padding: 12px 10px;
+    border-left: 6px solid #244566;
+    color: #635757;
+    font-weight: 600;
+}
+
+.topics ul li span {
+    padding-right: 14px;
+    color: #244566;
+    font-weight: 600;
+}
+
+.forth {
+    background-color: #ffa200;
+    color: white;
+    padding-bottom: 0px;
+}
+
+.content.fifth section {
+    margin: 14px;
+    padding: 20px;
+    text-align: left;
+}
+
+.content.fifth section h3 {
+    margin-bottom: -22px;
+    color: #ffa200;
+}
+
+.content.fifth section p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #337ab8;
+}
+
+.content.fifth .sub-sec {
+    background-color: #244566;
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+.content.fifth .sub-sec.orange {
+    background-color: #ffa200;
+}
+
+.content.fifth .sub-sec h3,
+.content.fifth .sub-sec ul li {
+    color: white;
+    list-style: disc;
+}
+
+.content.fifth .sub-sec .grid ul {
+    display: block;
+}
+
+.content.fifth .sub-sec .grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 38% 2fr;
+}
+
+.lecturer {
+    display: grid;
+    grid-template-columns: 14% 1fr;
+    align-items: center;
+}
+
+.lecturer img {
+    border-radius: 60%;
+    max-width: 130px;
+}
+
+.lecturer h3,
+.lecturer p {
+    text-align: left;
+    margin: 0px;
+}
+
+.last {
+    background-color: unset;
+}
+
+footer {
+    background-color: #244566;
+}
+
+footer h4 {
+    color: #ffa200;
+}
+
+footer ul {
+    padding-left: 0px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer i {
+    color: white;
+}
+
+footer p {
+    color: #808a96;
+}
+
+footer .col {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
