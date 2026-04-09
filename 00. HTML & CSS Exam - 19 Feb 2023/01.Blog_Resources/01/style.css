@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 200px auto;
+}
+
+main {
+    width: 80%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background: linear-gradient(90deg, rgba(241,219,177,1) 0%, rgba(228,208,168,1) 35%, rgba(246,224,181,1) 100%);
+    margin: 0 auto;
+}
+
+.movies {
+    margin: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.movie {
+    margin: 0 auto;
+    width: 45%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 16px;
+    overflow: hidden;
+    justify-content: stretch;
+    
+}
+
+.movie p {
+    background-color: #66545E;
+    color: #fff;
+    text-indent: 10px;
+    padding: 6px;
+    justify-content: center;
+    
+}
+
+.img-container {
+    width: 100%;
+    height: 100%;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.other {
+    margin: 60px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    color: #64525C;
+}
+
+.other h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.other ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.other ul li {
+    font-size: 20px;
+
+}
+.other ul li i{
+    margin-right: 10px;
+
+}
