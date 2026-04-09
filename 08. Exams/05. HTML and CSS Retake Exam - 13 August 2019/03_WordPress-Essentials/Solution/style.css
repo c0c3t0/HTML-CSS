@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+
+html {
+    font-family: "Lato", sans-serif;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #244566;
+    padding: 12px;
+}
+
+.main-nav img {
+    width: 50%;
+}
+
+.main-nav div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav a {
+    background-color: #ffa200;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 42px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+    color: #8fa0b0;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.sub-nav ul {
+    list-style: none;
+    font-size: 18px;
+    margin-left: 14rem;
+    font-weight: 900;
+
+}
+
+.sub-nav ul a {
+    color: #244566;
+    text-decoration: none;
+    margin-right: 20px;
+    background-color: white;
+}
+
+.sub-nav ul a:hover {
+    color: #ffa200;
+}
+
+main {
+    background-color: #244566;
+    color: white;
+    padding: 12px 0 62px;
+    text-align: center;
+    
+}
+
+main h1 {
+    font-size: 46px;
+}
+main ul {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 60px;
+    
+}
+
+main ul li i {
+    margin-right: 8px;
+}
+
+.participate {
+    background-color: #ffa200;
+    color: white;
+    padding: 10px 82px;
+    border-radius: 42px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.wp-logo {
+    position: absolute;
+    left: -102px;
+    top: 330px;
+    rotate: 20deg;
+    opacity: 0.4;
+}
+
