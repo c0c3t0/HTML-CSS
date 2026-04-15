@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: larger;
+}
+
+header {
+    background-color: #fa3600;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav div ul li i {
+    color: white;
+    margin-right: 10px;
+}
+
+.searchbar input[type="text"] {
+    padding: 10px 160px 10px 10px;
+    border: 1px solid #787373;
+}
+
+.searchbar i {
+    position: relative;
+    left: -4px;
+    top: 3px;
+    color: white;
+    background-color: #787373;
+    padding: 9px 30px;
+}
+
+body {
+    background-color: #f0e5e4;
+}
+
+main {
+    margin: 50px 120px 20px;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.categories .category img {
+    max-width: 100%;
+}
+
+.categories .category p {
+    text-align: center;
+    color: #787373;
+}
+
+.fall-collection {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: stretch;
+    margin-top: 20px;
+}
+
+.fall-collection img {
+    max-width: 100%;
+}
+
+.fall-collection h2 {
+    color: #fa3600;
+    letter-spacing: 2px;
+    font-weight: 350;
+    margin-top: 60px;
+}
+
+.fall-collection p {
+    color: #787373;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.fall-collection button {
+    background-color: #fa3600;
+    color: white;
+    border: none;
+    padding: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.grey {
+    background-color: #e0d9d8;
+    margin-top: 40px;
+    padding: 50px 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.grey div img {
+    width: 20%;
+    background-color: #f0e5e4;
+    padding: 20px;
+    border-radius: 60%;
+}
+
+.free-shipping,
+.amazing-deals,
+.top-customer-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.free-shipping h4,
+.amazing-deals h4,
+.top-customer-service h4 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.free-shipping p,
+.amazing-deals p,
+.top-customer-service p {
+    margin-top: 2px;
+    color: #787373;
+}
+
+footer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+footer div ul {
+    display: flex;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+footer ul li {
+    text-decoration: none;
+    list-style: none;
+    color: #787373;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #787373;
+}
+
+footer div ul li:first-child {
+    font-weight: 600;
+    margin-left: -4px;
+}
+
+footer div ul button {
+    background-color: #c9c1c2;
+    color: #787373;
+    border: none;
+    padding: 14px 60px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: large;
+}
+
+.fa-brands {
+    font-size: xx-large;
+}
+
+footer div ul i {
+    margin-left: -8px;
+}
