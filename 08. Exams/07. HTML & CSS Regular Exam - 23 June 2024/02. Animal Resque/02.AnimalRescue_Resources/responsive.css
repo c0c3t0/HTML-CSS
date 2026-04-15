@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    .our-dogs-wrapper {
+        width: 90%;
+    }
+    .our-dogs-wrapper ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .helpNeed ul {
+        flex-direction: column;
+    }
+}
