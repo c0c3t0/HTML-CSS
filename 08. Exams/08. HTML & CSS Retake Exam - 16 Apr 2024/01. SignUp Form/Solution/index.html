@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SingUp Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <form action="" method="post">
+            <div class="buttons">
+                <button class="sing-up">Sign Up</button>
+                <button class="log-in">Log In</button>
+            </div>
+            <h1>Sign Up for free</h1>
+            <div class="names">
+
+                <input type="text" name="first-name" id="first-name" required>
+                <label for="first-name" class="first-name">First Name<span class="last-letter">*</span></label>
+                
+                <input type="text" name="last-name" id="last-name" required>
+                <label for="last-name" class="last-name">Last Name<span class="last-letter">*</span></label>
+
+            </div>
+            <input type="email" name="email" id="email" required>
+            <label for="email" class="email">Email Address<span class="last-letter">*</span></label>
+
+            <input type="password" name="password" id="password" required>
+            <label for="password" class="password">Set A Password<span class="last-letter">*</span></label>
+            
+            <button type="submit" class="get-started">Get Started</button>
+        </form>
+    </main>
+</body>
+
+</html>
