@@ -1,0 +1,178 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+body {
+    border: 2px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+nav img {
+    width: 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main .green {
+    margin: 0px;
+    padding: 40px 0px 300px 0px;
+    background-color: #1eba55;
+}
+
+main .green h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+main img {
+    max-width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    font-size: 20px;
+    position: relative;
+    top: -200px;
+}
+
+.card {
+    background-color: white;
+    padding: 10px 6px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card ul {
+    list-style: circle;
+    line-height: 2;
+}
+
+.cards ul li {
+    color: #54546e;
+}
+
+.card button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 40px;
+    background-color: #1eba55;
+    color: white;
+    font-size: 18px;
+    font-style: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.card div {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 24px;
+    margin: -6px -6px -10px -6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card div .border {
+    padding-right: 20px;
+    border-right: 1px solid white;
+}
+
+.to-pay {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    gap: 60px;
+}
+
+.to-pay img {
+    max-width: 100%;
+    width: 26%
+}
+
+.diff {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.diff ul {
+    list-style: none;
+    text-align: left;
+}
+
+.diff ul li {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diff ul li span img{
+    margin: 0px 80px;
+
+}
+
+.diff ul li:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.diff ul li:last-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.diff ul li:nth-child(even) {
+    background-color: #82d9a0;
+}
+
+.diff ul li:nth-child(odd) {
+    background-color: #cccccc;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
