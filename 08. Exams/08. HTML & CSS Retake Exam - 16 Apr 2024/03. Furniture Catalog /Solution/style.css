@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../03.FurnitureCatalog_Resources/images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    height: 70vh;
+    text-shadow: 1px 1px 1px #1a1a1a5c;
+}
+
+header nav img {
+    max-width: 90px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 300px;
+}
+
+header p {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 100vw;
+    margin: 0px auto 0px;
+}
+
+header button {
+    display: block;
+    margin: 40px auto;
+    padding: 14px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #656666;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cards {
+    background-color: #61adc2;
+    padding: 50px 0;
+}
+
+.cards h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px 0 0;
+    margin: 0;
+}
+
+.cards p {
+    text-align: center;
+}
+
+.cards .div-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.cards .div-cards .card {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 30px rgb(74, 74, 74);
+}
+
+.cards .div-cards .card img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.cards .div-cards .card .description {
+    padding: 40px;
+    border-right: 10px solid #5facc2;
+}
+
+.cards .div-cards .card .description h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.cards .div-cards .card .description p {
+    font-size: 22px;
+    margin: 22px 0;
+    text-align: left;
+}
+
+.furnitures {
+    margin: 0 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    padding: 50px;
+}
+
+.furnitures div {
+    text-align: center;
+    padding: 100px;
+    font-size: larger;
+}
+
+.furnitures img {
+    max-width: 40%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.second-catalog {
+    background-color: #61adc2;
+    padding: 50px 0;
+}
+
+.second-catalog h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px 0 0;
+    margin: 0;
+}
+
+.second-catalog p {
+    text-align: center;
+}
+
+.second-catalog .image {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    padding: 50px;
+}
+
+.second-catalog .image img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 1px 1px 30px rgb(74, 74, 74);
+}
+
+.about-us {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
