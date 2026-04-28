@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+.hero {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5)), url(./images/poster.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+header nav {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+    padding-right: 0;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+header img {
+    width: 100px;
+}
+
+.hero div h1 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 90px;
+    color: #fff;
+    margin-top: 400px;
+    text-align: center;
+}
+
+.hero div p {
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin: 400px auto;
+    width: 25%;
+}
+
+.testimonial {
+    background-color: #f7efe9;
+    /* margin: 30px auto; */
+}
+
+.testimonial p {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    width: 64%;
+    margin: 0 auto;
+    padding-top: 60px;
+
+}
+
+.testimonial h2 {
+    width: 64%;
+    margin: 0 auto;
+    padding: 100px;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 90px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.support {
+    background-color: #e04848;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding: 100px;
+}
+
+.support h2 {
+    margin-bottom: 60px;
+}
+
+.support p {
+    width: 12%;
+    margin: 10px auto;
+}
+
+.mind {
+    background-color: #f7efe9;
+    text-align: center;
+
+}
+
+.mind img {
+    margin: 60px auto;
+    width: 30%;
+}
+
+.mind h2 {
+    width: 30%;
+    margin: 0 auto;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 90px;
+}
+
+.mind .description {
+    width: 30%;
+    margin: 80px auto;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.mind .description .read-more {
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.mind .read-all {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 60px;
+}
+
+.guide {
+    background-color: #e04848;
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+}
+
+.guide h2 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 90px;
+
+}
+
+.guide p {
+    width: 40%;
+    margin: 0 auto;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+}
+
+.guide .btn-guide {
+    background-color: #fad87a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+footer {
+    background-color: #332a29;
+}
+
+.footer {
+    width: 20%;
+    padding: 80px 120px;
+}
+
+footer img {
+    width: 100px;
+}
+
+.footer p:nth-child(2) {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin: 80px 0 40px 0;
+}
+
+.footer p:last-child {
+    color: #705e56;
+}
