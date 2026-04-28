@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        gap: 14px;
+    }
+
+    .header-title h1 {
+        font-size: 38px;
+    }
+
+    .choose-us {
+        padding: 2.5rem 5rem;
+    }
+
+    .choose-us ul {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .team-description ul {
+        justify-content: center;
+    }
+}
