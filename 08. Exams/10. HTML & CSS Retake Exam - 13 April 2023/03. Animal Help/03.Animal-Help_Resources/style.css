@@ -1,0 +1,242 @@
+html {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    background-color: #87ddff;
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.hero .hero-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .hero-container .btns button,
+.mission {
+    padding: 16px 60px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.hero .hero-container .btns .donate {
+    background-color: #ffffff;
+    color: black;
+}
+
+.hero .hero-container .btns .join,
+.mission {
+    color: #ffffff;
+    background-color: black;
+    margin-left: 30px;
+}
+
+.cause {
+    text-align: center;
+    letter-spacing: 2;
+}
+
+.cause span {
+    letter-spacing: 2px;
+}
+
+.cause .cards {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cause .cards .card {
+    width: 20%;
+
+}
+
+.cause .cards .card .fa-solid {
+    color: #87ddff;
+    font-size: 8rem;
+    margin: 50px auto 20px auto;
+}
+
+.work {
+    padding: 100px 0px;
+    background-color: #87ddff;
+    text-align: center;
+
+}
+
+.work h2 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.work ul {
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+    gap: 20px 200px;
+    grid-template-areas: "li1 li4"
+        "li2 li5"
+        "li3 li6";
+}
+
+li::marker {
+    font-size: 54px;
+}
+
+
+
+.li1 {
+    grid-area: li1;
+}
+
+.li2 {
+    grid-area: li2;
+}
+
+.li3 {
+    grid-area: li3;
+}
+
+.li4 {
+    grid-area: li4;
+}
+
+.li5 {
+    grid-area: li5;
+}
+
+.li6 {
+    grid-area: li6;
+}
+
+.mission {
+    margin-top: 50px;
+}
+
+.animals {
+    text-align: center;
+}
+
+.animals h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.descr {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+dl {
+    border: 2px solid #dedede;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+dt {
+    background-color: #87ddff;
+    padding: 20px 40px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+
+dd {
+    font-weight: bolder;
+    padding: 40px 20px 40px 0px;
+    text-align: left;
+}
+
+.news {
+    margin: 80px auto 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+
+}
+
+.news img {
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+
+.subscr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subscr input {
+    padding: 20px;
+    width: 40%;
+    border-color: #dedede;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.subscr button {
+    background-color: #000;
+    color: #fff;
+    margin: 40px 0px;
+    padding:20px 0px;
+    border-radius: 6px;
+    width: 50%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socials ul {
+    list-style: none;
+    display: flex;
+}
+
+.fa-brands {
+    font-size: 30px;
+}
