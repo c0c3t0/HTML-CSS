@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+html {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: url(./image/background.jpg);
+    background-size: cover;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transform: translate(0%, 50%);
+
+}
+
+.card {
+    width: 14%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+}
+
+.card:nth-child(2) {
+    ul {
+        margin-bottom: 50px;
+    }
+}
+
+.card:nth-child(3) {
+    ul {
+        margin-bottom: 0px;
+    }
+}
+
+.plan {
+    text-transform: uppercase;
+}
+
+span {
+    color: #b7adc4;
+}
+
+.price {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.card p:nth-of-type(2) {
+    color: #b7adc4;
+}
+
+.card ul {
+    list-style: none;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.card ul li {
+    padding: 10px 0px;
+}
+
+.button {
+    display: flex;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 20px 50px;
+}
+
+.cards .cards:nth-of-type(2) {
+    background-color: aquamarine;
+
+}
