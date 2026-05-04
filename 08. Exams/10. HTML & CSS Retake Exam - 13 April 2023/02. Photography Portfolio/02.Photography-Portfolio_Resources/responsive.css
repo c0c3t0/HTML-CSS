@@ -1,0 +1,34 @@
+@media (max-width: 600px) {
+
+    .navigation-nav,
+    .home-text,
+    .home-image {
+        display: none;
+    }
+
+    .home-text01 {
+        margin-top: 80px;
+    }
+
+    .home-tab-selector-cards-container {
+        grid-template-rows: unset;
+        grid-template-columns: unset;
+    }
+
+    .home-text10 {
+        margin-right: 20px;
+    }
+
+    .home-links-container,
+    .home-top-part {
+        display: block;
+    }
+
+    .home-text13 {
+        margin-top: 24px;
+    }
+
+    .section-container {
+        padding-top: 0px;
+    }
+}
